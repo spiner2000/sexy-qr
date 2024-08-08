@@ -1,0 +1,13 @@
+import { QRPolynomial } from './QRPolynomial';
+export declare const PATTERN_POSITION_TABLE: number[][];
+export declare const G15: number;
+export declare const G18: number;
+export declare const G15_MASK: number;
+export declare const getBCHDigit: (data: any) => number;
+export declare const getBCHTypeInfo: (data: any) => number;
+export declare const getBCHTypeNumber: (data: any) => number;
+export declare const getPatternPosition: (typeNumber: any) => number[];
+export declare const getMask: (maskPattern: any, i: any, j: any) => boolean;
+export declare const getErrorCorrectPolynomial: (errorCorrectLength: any) => QRPolynomial;
+export declare const getLengthInBits: (mode: any, type: any) => 12 | 8 | 14 | 11 | 10 | 9 | 16 | 13;
+export declare const getLostPoint: (qrCode: any) => number;
